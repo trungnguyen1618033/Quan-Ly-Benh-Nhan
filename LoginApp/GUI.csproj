@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FCBE5C8B-A374-4032-82DB-97983D11EA2B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LoginApp</RootNamespace>
+    <AssemblyName>LoginApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="%283%29frmAccountProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%283%29frmAccountProfile.Designer.cs">
+      <DependentUpon>%283%29frmAccountProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%282%29frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%282%29frmAdmin.Designer.cs">
+      <DependentUpon>%282%29frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%281%29fTableManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%281%29fTableManage.Designer.cs">
+      <DependentUpon>%281%29fTableManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%287a+8b%29BenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%287a+8b%29BenhNhan.Designer.cs">
+      <DependentUpon>%287a+8b%29BenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%289a%29ChiTietBenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%289a%29ChiTietBenhNhan.Designer.cs">
+      <DependentUpon>%289a%29ChiTietBenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%289b%29ChiTietToaThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%289b%29ChiTietToaThuoc.Designer.cs">
+      <DependentUpon>%289b%29ChiTietToaThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%286b%29DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%286b%29DangKy.Designer.cs">
+      <DependentUpon>%286b%29DangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%288b%29DangKyNhapVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%288b%29DangKyNhapVien.Designer.cs">
+      <DependentUpon>%288b%29DangKyNhapVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%280%29frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%280%29frmLogin.Designer.cs">
+      <DependentUpon>%280%29frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BUS\Account_BUS.cs" />
+    <Compile Include="BUS\BenhNhan_BUS.cs" />
+    <Compile Include="BUS\CTTT_BUS.cs" />
+    <Compile Include="BUS\HoaDon_BUS.cs" />
+    <Compile Include="BUS\KetQua_BUS.cs" />
+    <Compile Include="BUS\Khoa_BUS.cs" />
+    <Compile Include="BUS\LanKham_BUS.cs" />
+    <Compile Include="BUS\LoaiPhong_BUS.cs" />
+    <Compile Include="BUS\NhapVien_BUS.cs" />
+    <Compile Include="BUS\Phong_BUS.cs" />
+    <Compile Include="BUS\Thuoc_BUS.cs" />
+    <Compile Include="BUS\ToaThuoc_BUS.cs" />
+    <Compile Include="DAL\AccountDAL.cs" />
+    <Compile Include="DAL\BenhNhan_DAL.cs" />
+    <Compile Include="DAL\ChiTietNhapVien_DAL.cs" />
+    <Compile Include="DAL\CTTT_DAL.cs" />
+    <Compile Include="DAL\DataProvider.cs" />
+    <Compile Include="DAL\KetQua_DAL.cs" />
+    <Compile Include="DAL\Khoa_DAL.cs" />
+    <Compile Include="DAL\LanKham_DAL.cs" />
+    <Compile Include="DAL\LoaiPhongDAL.cs" />
+    <Compile Include="DAL\NhapVien_DAL.cs" />
+    <Compile Include="DAL\Phong_DAL.cs" />
+    <Compile Include="DAL\Thuoc_DAL.cs" />
+    <Compile Include="DAL\ToaThuoc_DAL.cs" />
+    <Compile Include="DanhSachBenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhSachBenhNhan.Designer.cs">
+      <DependentUpon>DanhSachBenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhSachLanKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhSachLanKham.Designer.cs">
+      <DependentUpon>DanhSachLanKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhSachChiTietNhapVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhSachChiTietNhapVien.Designer.cs">
+      <DependentUpon>DanhSachChiTietNhapVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhSachPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhSachPhong.Designer.cs">
+      <DependentUpon>DanhSachPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhSachToaThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhSachToaThuoc.Designer.cs">
+      <DependentUpon>DanhSachToaThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoiMatKhau.Designer.cs">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%286a%29LichKhamTrongNgay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%286a%29LichKhamTrongNgay.Designer.cs">
+      <DependentUpon>%286a%29LichKhamTrongNgay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\Account.cs" />
+    <Compile Include="DTO\BenhNhan.cs" />
+    <Compile Include="DTO\ChiTietNhapVien.cs" />
+    <Compile Include="DTO\CTTT.cs" />
+    <Compile Include="DTO\KetQua.cs" />
+    <Compile Include="DTO\Khoa.cs" />
+    <Compile Include="DTO\LanKham.cs" />
+    <Compile Include="DTO\LoaiPhong.cs" />
+    <Compile Include="DTO\NhapVien.cs" />
+    <Compile Include="DTO\Phong.cs" />
+    <Compile Include="DTO\Thuoc.cs" />
+    <Compile Include="DTO\ToaThuoc.cs" />
+    <Compile Include="frmConnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConnection.Designer.cs">
+      <DependentUpon>frmConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="%287b%29TaiKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%287b%29TaiKham.Designer.cs">
+      <DependentUpon>%287b%29TaiKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%288a%29TimKiemBenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%288a%29TimKiemBenhNhan.Designer.cs">
+      <DependentUpon>%288a%29TimKiemBenhNhan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="%283%29frmAccountProfile.resx">
+      <DependentUpon>%283%29frmAccountProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%282%29frmAdmin.resx">
+      <DependentUpon>%282%29frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%281%29fTableManage.resx">
+      <DependentUpon>%281%29fTableManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%287a+8b%29BenhNhan.resx">
+      <DependentUpon>%287a+8b%29BenhNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%289a%29ChiTietBenhNhan.resx">
+      <DependentUpon>%289a%29ChiTietBenhNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%289b%29ChiTietToaThuoc.resx">
+      <DependentUpon>%289b%29ChiTietToaThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%286b%29DangKy.resx">
+      <DependentUpon>%286b%29DangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%288b%29DangKyNhapVien.resx">
+      <DependentUpon>%288b%29DangKyNhapVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%280%29frmLogin.resx">
+      <DependentUpon>%280%29frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhSachBenhNhan.resx">
+      <DependentUpon>DanhSachBenhNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhSachLanKham.resx">
+      <DependentUpon>DanhSachLanKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhSachChiTietNhapVien.resx">
+      <DependentUpon>DanhSachChiTietNhapVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhSachPhong.resx">
+      <DependentUpon>DanhSachPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhSachToaThuoc.resx">
+      <DependentUpon>DanhSachToaThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoiMatKhau.resx">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%286a%29LichKhamTrongNgay.resx">
+      <DependentUpon>%286a%29LichKhamTrongNgay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConnection.resx">
+      <DependentUpon>frmConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="%287b%29TaiKham.resx">
+      <DependentUpon>%287b%29TaiKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%288a%29TimKiemBenhNhan.resx">
+      <DependentUpon>%288a%29TimKiemBenhNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.png" />
+    <None Include="Resources\IconSearch.png" />
+    <None Include="Resources\IconView.png" />
+    <None Include="Resources\IconDelete.png" />
+    <None Include="Resources\IconModify.png" />
+    <None Include="Resources\IconMinus.png" />
+    <None Include="Resources\IconPlus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

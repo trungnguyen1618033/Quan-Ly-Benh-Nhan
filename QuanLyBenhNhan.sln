@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "LoginApp\GUI.csproj", "{FCBE5C8B-A374-4032-82DB-97983D11EA2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DefaultBuild|Any CPU = DefaultBuild|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCBE5C8B-A374-4032-82DB-97983D11EA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBE5C8B-A374-4032-82DB-97983D11EA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBE5C8B-A374-4032-82DB-97983D11EA2B}.DefaultBuild|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBE5C8B-A374-4032-82DB-97983D11EA2B}.DefaultBuild|Any CPU.Build.0 = Debug|Any CPU
+		{FCBE5C8B-A374-4032-82DB-97983D11EA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBE5C8B-A374-4032-82DB-97983D11EA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

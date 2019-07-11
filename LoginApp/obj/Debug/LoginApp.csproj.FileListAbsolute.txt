@@ -1,0 +1,18 @@
+C:\Users\my pc\Documents\Visual Studio 2015\Projects\LTTQ\DoAn\LoginApp\LoginApp\bin\Debug\LoginApp.exe.config
+C:\Users\my pc\Documents\Visual Studio 2015\Projects\LTTQ\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.csprojResolveAssemblyReference.cache
+C:\Users\my pc\Documents\Visual Studio 2015\Projects\LTTQ\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.frmLogin.resources
+C:\Users\my pc\Documents\Visual Studio 2015\Projects\LTTQ\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.frmMain.resources
+C:\Users\my pc\Documents\Visual Studio 2015\Projects\LTTQ\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.Properties.Resources.resources
+C:\Users\my pc\Documents\Visual Studio 2015\Projects\LTTQ\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.csproj.GenerateResource.Cache
+C:\Users\my pc\Desktop\DoAn\LoginApp\LoginApp\bin\Debug\LoginApp.exe.config
+C:\Users\my pc\Desktop\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.csprojResolveAssemblyReference.cache
+C:\Users\my pc\Desktop\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.frmLogin.resources
+C:\Users\my pc\Desktop\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.frmMain.resources
+C:\Users\my pc\Desktop\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.Properties.Resources.resources
+C:\Users\my pc\Desktop\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.csproj.GenerateResource.Cache
+C:\Users\my pc\Desktop\DoAn\LoginApp\LoginApp\bin\Debug\LoginApp.exe
+C:\Users\my pc\Desktop\DoAn\LoginApp\LoginApp\bin\Debug\LoginApp.pdb
+C:\Users\my pc\Desktop\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.exe
+C:\Users\my pc\Desktop\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.pdb
+C:\Users\my pc\Desktop\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.DangKy.resources
+C:\Users\my pc\Desktop\DoAn\LoginApp\LoginApp\obj\Debug\LoginApp.TaiKham.resources
